@@ -1,0 +1,87 @@
+﻿2016/12/14 9:48:01 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\爆弾男.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\爆弾男.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4482 /analyze- /errorReport:prompt Audio.cpp Camera.cpp Effect.cpp Game.cpp GameStatus.cpp Graphics.cpp Ground.cpp Hurricane.cpp Image.cpp Input.cpp MeshFBX.cpp Model.cpp NormalBom.cpp NormalCpu.cpp ParalyzeBom.cpp PlayGame.cpp PlayScene.cpp PlusBom.cpp Poly.cpp PsyCpu.cpp ReadFile.cpp SceneBase.cpp SpeedCpu.cpp TextureManager.cpp Thunder.cpp Title.cpp TitleScene.cpp VsCpuPlayer.cpp VsPlayer.cpp Wall.cpp WinMain.cpp
+         Audio.cpp
+         Camera.cpp
+         Effect.cpp
+         Game.cpp
+         GameStatus.cpp
+         Graphics.cpp
+         Ground.cpp
+         Hurricane.cpp
+         Image.cpp
+         Input.cpp
+         MeshFBX.cpp
+         Model.cpp
+         NormalBom.cpp
+         NormalCpu.cpp
+         ParalyzeBom.cpp
+         PlayGame.cpp
+         PlayScene.cpp
+         PlusBom.cpp
+         Poly.cpp
+         PsyCpu.cpp
+         コンパイル中...
+         ReadFile.cpp
+         SceneBase.cpp
+         SpeedCpu.cpp
+         TextureManager.cpp
+         Thunder.cpp
+         Title.cpp
+         TitleScene.cpp
+         VsCpuPlayer.cpp
+         VsPlayer.cpp
+         Wall.cpp
+     1>Wall.cpp(419): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>Wall.cpp(419): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>Wall.cpp(424): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>Wall.cpp(424): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+         WinMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\Release\爆弾男.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\爆弾男.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\Release\爆弾男.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\Release\爆弾男.lib" /MACHINE:X86 Release\Audio.obj
+         Release\Camera.obj
+         Release\Effect.obj
+         Release\Game.obj
+         Release\GameStatus.obj
+         Release\Graphics.obj
+         Release\Ground.obj
+         Release\Hurricane.obj
+         Release\Image.obj
+         Release\Input.obj
+         Release\MeshFBX.obj
+         Release\Model.obj
+         Release\NormalBom.obj
+         Release\NormalCpu.obj
+         Release\ParalyzeBom.obj
+         Release\PlayGame.obj
+         Release\PlayScene.obj
+         Release\PlusBom.obj
+         Release\Poly.obj
+         Release\PsyCpu.obj
+         Release\ReadFile.obj
+         Release\SceneBase.obj
+         Release\SpeedCpu.obj
+         Release\TextureManager.obj
+         Release\Thunder.obj
+         Release\Title.obj
+         Release\TitleScene.obj
+         Release\VsCpuPlayer.obj
+         Release\VsPlayer.obj
+         Release\Wall.obj
+         Release\WinMain.obj
+         コード生成しています。
+         コード生成が終了しました。
+         爆弾男.vcxproj -> C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\Release\爆弾男.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\Release\爆弾男.exe;#1" /manifest "Release\爆弾男.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         ファイル "Release\爆弾男.unsuccessfulbuild" を削除しています。
+         "Release\爆弾男.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\隆貴\Desktop\BOMMAN(VS2010)\プログラム\BOMMAN\爆弾男.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:56.90

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\エンジン">
+      <UniqueIdentifier>{28b1ce15-23c0-4658-a717-418412b99ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\エンジン">
+      <UniqueIdentifier>{f4e43ff6-552a-4379-897f-8878c2c5058b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ユニット">
+      <UniqueIdentifier>{1b002e0e-c802-4c49-b9fc-7e182e21540c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ユニット">
+      <UniqueIdentifier>{5e3c3154-883f-4abc-91fd-00f26c2dcc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{57013b43-1d82-48b0-a2c0-659afc6ae0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{9e1e5117-0d59-4fa7-8eb6-44075fb5debe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ユニット\CPU">
+      <UniqueIdentifier>{ca8e7bba-0d9e-4143-a95c-f1f30a80c888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ユニット\BOM">
+      <UniqueIdentifier>{e13afe89-08b9-4c18-9444-bf000c9bb72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ユニット\PLAYER">
+      <UniqueIdentifier>{b17a2683-bc69-4854-b640-b5d02f74c4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ユニット\OPTION">
+      <UniqueIdentifier>{343a0200-aee5-47f3-a783-d15a145254e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ユニット\CPU">
+      <UniqueIdentifier>{d857988c-07bf-4758-bf61-1ab47d614981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ユニット\BOM">
+      <UniqueIdentifier>{32134501-d9e8-4bb4-9695-305db8b3b144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ユニット\OPTION">
+      <UniqueIdentifier>{14912061-f5f0-4cfe-bde1-8525ec78de80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ユニット\PLAYER">
+      <UniqueIdentifier>{69c7d870-541f-4f09-8ca2-184363b1d05a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Shader.fx" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayGame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatus.cpp">
+      <Filter>ソース ファイル\ユニット</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>ソース ファイル\ユニット</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFBX.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFile.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>ソース ファイル\ユニット</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>ソース ファイル\エンジン</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\ユニット</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="PsyCpu.cpp">
+      <Filter>ソース ファイル\ユニット\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedCpu.cpp">
+      <Filter>ソース ファイル\ユニット\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusBom.cpp">
+      <Filter>ソース ファイル\ユニット\BOM</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBom.cpp">
+      <Filter>ソース ファイル\ユニット\BOM</Filter>
+    </ClCompile>
+    <ClCompile Include="ParalyzeBom.cpp">
+      <Filter>ソース ファイル\ユニット\BOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Hurricane.cpp">
+      <Filter>ソース ファイル\ユニット\OPTION</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>ソース ファイル\ユニット\OPTION</Filter>
+    </ClCompile>
+    <ClCompile Include="VsPlayer.cpp">
+      <Filter>ソース ファイル\ユニット\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="VsCpuPlayer.cpp">
+      <Filter>ソース ファイル\ユニット\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalCpu.cpp">
+      <Filter>ソース ファイル\ユニット\CPU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="GameError.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatus.h">
+      <Filter>ヘッダー ファイル\ユニット</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>ヘッダー ファイル\ユニット</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFBX.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFile.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>ヘッダー ファイル\エンジン</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\ユニット</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitBase.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>ヘッダー ファイル\ユニット</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpu.h">
+      <Filter>ヘッダー ファイル\ユニット\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PsyCpu.h">
+      <Filter>ヘッダー ファイル\ユニット\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Bom.h">
+      <Filter>ヘッダー ファイル\ユニット\BOM</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusBom.h">
+      <Filter>ヘッダー ファイル\ユニット\BOM</Filter>
+    </ClInclude>
+    <ClInclude Include="ParalyzeBom.h">
+      <Filter>ヘッダー ファイル\ユニット\BOM</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBom.h">
+      <Filter>ヘッダー ファイル\ユニット\BOM</Filter>
+    </ClInclude>
+    <ClInclude Include="VsCpuPlayer.h">
+      <Filter>ヘッダー ファイル\ユニット\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\ユニット\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="VsPlayer.h">
+      <Filter>ヘッダー ファイル\ユニット\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>ヘッダー ファイル\ユニット\OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>ヘッダー ファイル\ユニット\OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="Hurricane.h">
+      <Filter>ヘッダー ファイル\ユニット\OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeChange.h">
+      <Filter>ヘッダー ファイル\ユニット\OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayGame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCpu.h">
+      <Filter>ヘッダー ファイル\ユニット\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedCpu.h">
+      <Filter>ヘッダー ファイル\ユニット\CPU</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
